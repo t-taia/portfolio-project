@@ -56,35 +56,21 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
-<<<<<<< HEAD
 /*--About Hero section and Works CSS--*/
 .content-container {
   padding: 160px 20px;
 }
 
 .content h1 {
-=======
-/*--About Hero section CSS--*/
-.about-section {
-  padding: 160px 20px;
-}
-
-.about-section h1 {
->>>>>>> 71e8e2b0a109d6f441b23b3a62945956141af1ac
   font-size: 64px;
   line-height: 80px;
 }
 
-<<<<<<< HEAD
 .content h2 {
-=======
-.about-section h2 {
->>>>>>> 71e8e2b0a109d6f441b23b3a62945956141af1ac
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-<<<<<<< HEAD
 .content h3 {
   font-size: 24px;
   line-height: 1;
@@ -99,12 +85,6 @@ p {
   font-size: 14px;
 }
 
-=======
-.about-section-content {
-  margin: 30px;
-}
-
->>>>>>> 71e8e2b0a109d6f441b23b3a62945956141af1ac
 /*--Button CSS--*/
 .btn-branding {
   background: var(--branding-color);
