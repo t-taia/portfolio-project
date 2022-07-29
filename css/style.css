@@ -37,7 +37,7 @@ p {
 
 /*--Navigation CSS--*/
 .logo {
-  width: 150px;
+  max-height: 40px;
 }
 nav {
   padding: 20px 0;
@@ -52,6 +52,21 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
+  margin-left: 15px;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 /*--Hero CSS--*/
@@ -102,7 +117,6 @@ nav li {
 
 .content p {
   font-size: 14px;
-
 }
 
 /*--Button CSS--*/
@@ -130,6 +144,10 @@ nav li {
 
 /*--Media--*/
 @media (max-width: 960px) {
+  nav a {
+    font-size: 12px;
+  }
+
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -149,11 +167,7 @@ nav li {
     text-align: center;
   }
 
-<<<<<<< HEAD
   .content-container {
-=======
-  .about-section {
->>>>>>> 71e8e2b0a109d6f441b23b3a62945956141af1ac
     text-align: center;
     padding: 0;
   }
