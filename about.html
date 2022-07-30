@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page about Taisia" />
 
     <title>About me</title>
 
@@ -37,6 +38,39 @@
   </head>
 
   <body>
+    <!--Navigation-->
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Logo small"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About page">About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Work page">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of the Navigation-->
+    <!--Description-->
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -49,18 +83,81 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding"
+              title="My working projects"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="images/photo.jpg"
-            alt=""
+            alt="Logo"
             class="img-fluid rounded"
             width="400"
           />
         </div>
       </div>
+      <!--Footer-->
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contacts of Taisia"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:taisia@mail.com"
+            class="email-link"
+            title="Mail to Taisia"
+            >taisia@mail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/taisia"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/taisia"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+
+        <p class="text-center mt-5">
+          This project was coded thanks to SheCodes, and it is
+          <a href="https://github.com/t-taia/portfolio-project" target="_blank"
+            >open-sourced</a
+          >
+          👍
+        </p>
+      </footer>
+      <!--Enf of the Footer-->
     </div>
   </body>
 </html>

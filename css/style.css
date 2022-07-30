@@ -29,7 +29,7 @@ h2 {
   font-size: 54px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -78,7 +78,7 @@ nav a:hover {
   background: var(--secondary-color);
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -96,7 +96,7 @@ nav a:hover {
 }
 /*--About Hero section and Works CSS--*/
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -200,19 +200,20 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .hero p {
     font-size: 20px;
   }
   .project-decription {
     padding: 0;
     text-align: center;
+  }
+
+  .content h1 {
+    font-size: 48px;
   }
 
   .content-container {
